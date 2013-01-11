@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46018E50169F3F14008B0BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46018E4F169F3F14008B0BA4 /* UIKit.framework */; };
+		46018E52169F3F14008B0BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46018E51169F3F14008B0BA4 /* Foundation.framework */; };
+		46018E54169F3F14008B0BA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46018E53169F3F14008B0BA4 /* CoreGraphics.framework */; };
+		46018E5A169F3F14008B0BA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46018E58169F3F14008B0BA4 /* InfoPlist.strings */; };
+		46018E5C169F3F14008B0BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46018E5B169F3F14008B0BA4 /* main.m */; };
+		46018E60169F3F14008B0BA4 /* KatBatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46018E5F169F3F14008B0BA4 /* KatBatAppDelegate.m */; };
+		46018E62169F3F14008B0BA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 46018E61169F3F14008B0BA4 /* Default.png */; };
+		46018E64169F3F14008B0BA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46018E63169F3F14008B0BA4 /* Default@2x.png */; };
+		46018E66169F3F14008B0BA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46018E65169F3F14008B0BA4 /* Default-568h@2x.png */; };
+		46018E69169F3F14008B0BA4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46018E67169F3F14008B0BA4 /* MainStoryboard_iPhone.storyboard */; };
+		46018E6C169F3F14008B0BA4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46018E6A169F3F14008B0BA4 /* MainStoryboard_iPad.storyboard */; };
+		46018E6F169F3F14008B0BA4 /* KatBatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46018E6E169F3F14008B0BA4 /* KatBatViewController.m */; };
+		46018E77169F3F14008B0BA4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46018E76169F3F14008B0BA4 /* SenTestingKit.framework */; };
+		46018E78169F3F14008B0BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46018E4F169F3F14008B0BA4 /* UIKit.framework */; };
+		46018E79169F3F14008B0BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46018E51169F3F14008B0BA4 /* Foundation.framework */; };
+		46018E81169F3F14008B0BA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46018E7F169F3F14008B0BA4 /* InfoPlist.strings */; };
+		46018E84169F3F14008B0BA4 /* KatBatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46018E83169F3F14008B0BA4 /* KatBatAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46018E7A169F3F14008B0BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46018E42169F3F14008B0BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46018E4A169F3F14008B0BA4;
+			remoteInfo = KatBatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46018E4B169F3F14008B0BA4 /* KatBatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatBatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46018E4F169F3F14008B0BA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46018E51169F3F14008B0BA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46018E53169F3F14008B0BA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46018E57169F3F14008B0BA4 /* KatBatApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KatBatApp-Info.plist"; sourceTree = "<group>"; };
+		46018E59169F3F14008B0BA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46018E5B169F3F14008B0BA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46018E5D169F3F14008B0BA4 /* KatBatApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KatBatApp-Prefix.pch"; sourceTree = "<group>"; };
+		46018E5E169F3F14008B0BA4 /* KatBatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KatBatAppDelegate.h; sourceTree = "<group>"; };
+		46018E5F169F3F14008B0BA4 /* KatBatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KatBatAppDelegate.m; sourceTree = "<group>"; };
+		46018E61169F3F14008B0BA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		46018E63169F3F14008B0BA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		46018E65169F3F14008B0BA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		46018E68169F3F14008B0BA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		46018E6B169F3F14008B0BA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		46018E6D169F3F14008B0BA4 /* KatBatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KatBatViewController.h; sourceTree = "<group>"; };
+		46018E6E169F3F14008B0BA4 /* KatBatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KatBatViewController.m; sourceTree = "<group>"; };
+		46018E75169F3F14008B0BA4 /* KatBatAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatBatAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46018E76169F3F14008B0BA4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		46018E7E169F3F14008B0BA4 /* KatBatAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KatBatAppTests-Info.plist"; sourceTree = "<group>"; };
+		46018E80169F3F14008B0BA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46018E82169F3F14008B0BA4 /* KatBatAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KatBatAppTests.h; sourceTree = "<group>"; };
+		46018E83169F3F14008B0BA4 /* KatBatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KatBatAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46018E48169F3F14008B0BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46018E50169F3F14008B0BA4 /* UIKit.framework in Frameworks */,
+				46018E52169F3F14008B0BA4 /* Foundation.framework in Frameworks */,
+				46018E54169F3F14008B0BA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46018E71169F3F14008B0BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46018E77169F3F14008B0BA4 /* SenTestingKit.framework in Frameworks */,
+				46018E78169F3F14008B0BA4 /* UIKit.framework in Frameworks */,
+				46018E79169F3F14008B0BA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46018E40169F3F14008B0BA4 = {
+			isa = PBXGroup;
+			children = (
+				46018E55169F3F14008B0BA4 /* KatBatApp */,
+				46018E7C169F3F14008B0BA4 /* KatBatAppTests */,
+				46018E4E169F3F14008B0BA4 /* Frameworks */,
+				46018E4C169F3F14008B0BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46018E4C169F3F14008B0BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46018E4B169F3F14008B0BA4 /* KatBatApp.app */,
+				46018E75169F3F14008B0BA4 /* KatBatAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46018E4E169F3F14008B0BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46018E4F169F3F14008B0BA4 /* UIKit.framework */,
+				46018E51169F3F14008B0BA4 /* Foundation.framework */,
+				46018E53169F3F14008B0BA4 /* CoreGraphics.framework */,
+				46018E76169F3F14008B0BA4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46018E55169F3F14008B0BA4 /* KatBatApp */ = {
+			isa = PBXGroup;
+			children = (
+				46018E5E169F3F14008B0BA4 /* KatBatAppDelegate.h */,
+				46018E5F169F3F14008B0BA4 /* KatBatAppDelegate.m */,
+				46018E67169F3F14008B0BA4 /* MainStoryboard_iPhone.storyboard */,
+				46018E6A169F3F14008B0BA4 /* MainStoryboard_iPad.storyboard */,
+				46018E6D169F3F14008B0BA4 /* KatBatViewController.h */,
+				46018E6E169F3F14008B0BA4 /* KatBatViewController.m */,
+				46018E56169F3F14008B0BA4 /* Supporting Files */,
+			);
+			path = KatBatApp;
+			sourceTree = "<group>";
+		};
+		46018E56169F3F14008B0BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46018E57169F3F14008B0BA4 /* KatBatApp-Info.plist */,
+				46018E58169F3F14008B0BA4 /* InfoPlist.strings */,
+				46018E5B169F3F14008B0BA4 /* main.m */,
+				46018E5D169F3F14008B0BA4 /* KatBatApp-Prefix.pch */,
+				46018E61169F3F14008B0BA4 /* Default.png */,
+				46018E63169F3F14008B0BA4 /* Default@2x.png */,
+				46018E65169F3F14008B0BA4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46018E7C169F3F14008B0BA4 /* KatBatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				46018E82169F3F14008B0BA4 /* KatBatAppTests.h */,
+				46018E83169F3F14008B0BA4 /* KatBatAppTests.m */,
+				46018E7D169F3F14008B0BA4 /* Supporting Files */,
+			);
+			path = KatBatAppTests;
+			sourceTree = "<group>";
+		};
+		46018E7D169F3F14008B0BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46018E7E169F3F14008B0BA4 /* KatBatAppTests-Info.plist */,
+				46018E7F169F3F14008B0BA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46018E4A169F3F14008B0BA4 /* KatBatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46018E87169F3F14008B0BA4 /* Build configuration list for PBXNativeTarget "KatBatApp" */;
+			buildPhases = (
+				46018E47169F3F14008B0BA4 /* Sources */,
+				46018E48169F3F14008B0BA4 /* Frameworks */,
+				46018E49169F3F14008B0BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KatBatApp;
+			productName = KatBatApp;
+			productReference = 46018E4B169F3F14008B0BA4 /* KatBatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46018E74169F3F14008B0BA4 /* KatBatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46018E8A169F3F14008B0BA4 /* Build configuration list for PBXNativeTarget "KatBatAppTests" */;
+			buildPhases = (
+				46018E70169F3F14008B0BA4 /* Sources */,
+				46018E71169F3F14008B0BA4 /* Frameworks */,
+				46018E72169F3F14008B0BA4 /* Resources */,
+				46018E73169F3F14008B0BA4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46018E7B169F3F14008B0BA4 /* PBXTargetDependency */,
+			);
+			name = KatBatAppTests;
+			productName = KatBatAppTests;
+			productReference = 46018E75169F3F14008B0BA4 /* KatBatAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46018E42169F3F14008B0BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KatBat;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Imran Qureshi";
+			};
+			buildConfigurationList = 46018E45169F3F14008B0BA4 /* Build configuration list for PBXProject "KatBatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46018E40169F3F14008B0BA4;
+			productRefGroup = 46018E4C169F3F14008B0BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46018E4A169F3F14008B0BA4 /* KatBatApp */,
+				46018E74169F3F14008B0BA4 /* KatBatAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46018E49169F3F14008B0BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46018E5A169F3F14008B0BA4 /* InfoPlist.strings in Resources */,
+				46018E62169F3F14008B0BA4 /* Default.png in Resources */,
+				46018E64169F3F14008B0BA4 /* Default@2x.png in Resources */,
+				46018E66169F3F14008B0BA4 /* Default-568h@2x.png in Resources */,
+				46018E69169F3F14008B0BA4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				46018E6C169F3F14008B0BA4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46018E72169F3F14008B0BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46018E81169F3F14008B0BA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46018E73169F3F14008B0BA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46018E47169F3F14008B0BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46018E5C169F3F14008B0BA4 /* main.m in Sources */,
+				46018E60169F3F14008B0BA4 /* KatBatAppDelegate.m in Sources */,
+				46018E6F169F3F14008B0BA4 /* KatBatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46018E70169F3F14008B0BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46018E84169F3F14008B0BA4 /* KatBatAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46018E7B169F3F14008B0BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46018E4A169F3F14008B0BA4 /* KatBatApp */;
+			targetProxy = 46018E7A169F3F14008B0BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46018E58169F3F14008B0BA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46018E59169F3F14008B0BA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		46018E67169F3F14008B0BA4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46018E68169F3F14008B0BA4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		46018E6A169F3F14008B0BA4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46018E6B169F3F14008B0BA4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		46018E7F169F3F14008B0BA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46018E80169F3F14008B0BA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46018E85169F3F14008B0BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46018E86169F3F14008B0BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46018E88169F3F14008B0BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KatBatApp/KatBatApp-Prefix.pch";
+				INFOPLIST_FILE = "KatBatApp/KatBatApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46018E89169F3F14008B0BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KatBatApp/KatBatApp-Prefix.pch";
+				INFOPLIST_FILE = "KatBatApp/KatBatApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46018E8B169F3F14008B0BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KatBatApp.app/KatBatApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KatBatApp/KatBatApp-Prefix.pch";
+				INFOPLIST_FILE = "KatBatAppTests/KatBatAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		46018E8C169F3F14008B0BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KatBatApp.app/KatBatApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KatBatApp/KatBatApp-Prefix.pch";
+				INFOPLIST_FILE = "KatBatAppTests/KatBatAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46018E45169F3F14008B0BA4 /* Build configuration list for PBXProject "KatBatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46018E85169F3F14008B0BA4 /* Debug */,
+				46018E86169F3F14008B0BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46018E87169F3F14008B0BA4 /* Build configuration list for PBXNativeTarget "KatBatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46018E88169F3F14008B0BA4 /* Debug */,
+				46018E89169F3F14008B0BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46018E8A169F3F14008B0BA4 /* Build configuration list for PBXNativeTarget "KatBatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46018E8B169F3F14008B0BA4 /* Debug */,
+				46018E8C169F3F14008B0BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46018E42169F3F14008B0BA4 /* Project object */;
+}
